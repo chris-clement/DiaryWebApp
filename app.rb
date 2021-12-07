@@ -12,5 +12,9 @@ class DiaryManager < Sinatra::Base
   get '/' do 
     erb :index
   end
+
+  post '/view_diary_entries' do
+    erb :view_diary_entries
+  end
   run! if app_file == $0
 end

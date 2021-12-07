@@ -15,9 +15,25 @@
           null,
           null,
           1,
+          2,
+          null,
+          null,
+          1,
           1,
           null,
           1,
+          null
+        ]
+      },
+      "/Users/chrisclement/Desktop/Projects/Makers/Week4/practicals/Diary/diary_app/spec/features/submit_diary_entry_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -32,6 +48,6 @@
         ]
       }
     },
-    "timestamp": 1638882533
+    "timestamp": 1638883192
   }
 }
