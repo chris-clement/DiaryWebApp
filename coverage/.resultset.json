@@ -15,10 +15,23 @@
           null,
           null,
           1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/chrisclement/Desktop/Projects/Makers/Week4/practicals/Diary/diary_app/spec/features/visit_homepage_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1638882266
+    "timestamp": 1638882533
   }
 }
