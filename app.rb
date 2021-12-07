@@ -14,6 +14,7 @@ class DiaryManager < Sinatra::Base
   end
 
   post '/view_diary_entries' do
+    @diary_entries = params[:content]
     erb :view_diary_entries
   end
   run! if app_file == $0
