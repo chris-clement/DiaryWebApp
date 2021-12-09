@@ -2,6 +2,7 @@
 
 require 'sinatra/base'
 require 'sinatra/reloader'
+require './lib/diary_entry'
 
 # Sinatra class
 class DiaryManager < Sinatra::Base
@@ -14,7 +15,9 @@ class DiaryManager < Sinatra::Base
   end
 
   post '/view_diary_entries' do
-    @diary_entries = params[:content]
+    # @diary_title = params[:title]
+    # @diary_content = params[:content]
+    DiaryEntry.add_entry(params[:title], params[:content])
     erb :view_diary_entries
   end
   run! if app_file == $0
